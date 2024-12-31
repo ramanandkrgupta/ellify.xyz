@@ -1,0 +1,10 @@
+{
+  "description": "Nand's web",
+  "owner": {
+    "username": "nandkk05",
+    "email": "jayram@gmail.com"
+  },
+  "record": {
+    "CNAME": "jayram.github.io"
+  }
+}
