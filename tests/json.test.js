@@ -54,14 +54,14 @@ t("All files should be valid JSON", (t) => {
 t("All files should have valid file names", (t) => {
     files.forEach((file) => {
         t.true(file.endsWith(".json"), `${file}: File does not have .json extension`);
-        t.false(file.includes(".is-a.dev"), `${file}: File name should not contain .is-a.dev`);
+        t.false(file.includes(".ellify.xyz"), `${file}: File name should not contain .ellify.xyz`);
         t.true(file === file.toLowerCase(), `${file}: File name should be lowercase`);
 
         // Ignore root domain
         if (file !== "@.json") {
             const subdomain = file.replace(/\.json$/, "");
             t.regex(
-                subdomain + ".is-a.dev",
+                subdomain + ".ellify.xyzyz",
                 hostnameRegex,
                 `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
             );

@@ -160,7 +160,7 @@ t("All files should have valid record values", (t) => {
                     t.true(isValidHostname(value), `${file}: Invalid hostname for ${key}`);
                     t.true(value !== file, `${file}: CNAME cannot point to itself`);
                     if (file === "@.json") {
-                        t.true(value !== "is-a.dev", `${file}: CNAME cannot point to itself`);
+                        t.true(value !== "ellify.xyz", `${file}: CNAME cannot point to itself`);
                     }
                 }
 
