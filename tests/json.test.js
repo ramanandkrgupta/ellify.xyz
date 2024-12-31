@@ -61,7 +61,7 @@ t("All files should have valid file names", (t) => {
         if (file !== "@.json") {
             const subdomain = file.replace(/\.json$/, "");
             t.regex(
-                subdomain + ".ellify.xyzyz",
+                subdomain + ".ellify.xyz",
                 hostnameRegex,
                 `${file}: FQDN must be 1-253 characters, use letters, numbers, dots, or hyphens, and not start or end with a hyphen.`
             );
