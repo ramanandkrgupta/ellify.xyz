@@ -1,4 +1,4 @@
-* @wdhdev
+- @wdhdev
 
-/domains/ @is-a-dev/maintainers
-*.md @is-a-dev/maintainers
+/domains/ @ellify.xyz/maintainers
+\*.md @ellify.xyz/maintainers

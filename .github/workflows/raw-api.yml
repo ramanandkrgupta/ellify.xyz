@@ -23,7 +23,7 @@ jobs:
 
             - uses: actions/checkout@v4
               with:
-                  repository: is-a-dev/raw-api
+                  repository: ramanandkrgupta/raw-api
                   path: raw-api
                   token: ${{ secrets.BOT }}
 
@@ -38,7 +38,7 @@ jobs:
               uses: cpina/github-action-push-to-another-repository@main
               with:
                   source-directory: "raw-api"
-                  destination-github-username: is-a-dev
+                  destination-github-username: ramanandkrgupta
                   destination-repository-name: raw-api
                   user-email: "actions@github.com"
                   user-name: "GitHub Actions"
