@@ -1,4 +1,4 @@
-var domainName = "is-a.dev";
+var domainName = "ellify.xyz";
 var registrar = NewRegistrar("none");
 var dnsProvider = DnsProvider(NewDnsProvider("cloudflare"), 0);
 
