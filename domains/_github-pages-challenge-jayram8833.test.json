@@ -2,12 +2,12 @@
     "description": "insert ur description",
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
-        "email": "Your email address (If you care about your privacy, you do not have to do this.)",
+        "email": "ramanandkk@gmail.com",
         "discord": "Your discord ID"
     },
 
     "record": {
-      "TXT": ["24f959b4ee6db4cb5e214fc0dbbce1"],
+      "TXT": "24f959b4ee6db4cb5e214fc0dbbce1",
        
     },
 
