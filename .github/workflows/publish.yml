@@ -15,8 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set execute permissions for entrypoint.sh
-        run: chmod +x ./entrypoint.sh
+      - 
 
       - name: Generate creds.json
         run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
